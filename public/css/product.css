@@ -1,0 +1,48 @@
+.product-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+    background-color: white;
+    box-shadow: 2px 2px 20px #00000025;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+
+
+.product-item {
+    width: 20rem;
+    max-width: 95%;
+    margin: 1rem;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+
+.product__title {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product__price {
+    text-align: center;
+    color: #03cafc;
+    margin-bottom: 0.5rem;
+}
+
+.product__description {
+    text-align: center;
+    font-weight: 300;
+}
+
+#add-prod-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    margin-bottom: 300px;
+}
